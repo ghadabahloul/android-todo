@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lk"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="ToDo Menu"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="30dp"
+          android:layout_marginBottom="50dp"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/buttoneventlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonprofil"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttoncirculaire"
+        android:height="120dp"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:text="My events List "
+        android:textColor="#ffffff"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:width="120dp" />
+
+    <Button
+        android:id="@+id/buttonprofil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/lk"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/buttoncirculaire"
+        android:height="120dp"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:text="Profile"
+        android:textColor="#ffffff"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:width="120dp" />
+
+    <Button
+        android:id="@+id/buttoncreatevent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttoneventlist"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/buttoncirculaire"
+        android:height="120dp"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:text="Create Event"
+        android:textColor="#ffffff"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:width="120dp" />
+
+</RelativeLayout>
